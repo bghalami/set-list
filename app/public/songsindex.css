@@ -1,0 +1,35 @@
+w#top-text {
+  font-size: 44px;
+  text-align: center;
+}
+
+body {
+  background-color: D6FFF1;
+  text-align: center;
+}
+
+#cont {
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+}
+
+.song-card {
+  background-color: E1EAE7;
+  width: 200px;
+  border-radius: 20%;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+}
+
+img {
+  padding: 15;
+  border-radius: 50%;
+  height: 60px;
+}

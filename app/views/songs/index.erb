@@ -1,0 +1,21 @@
+<h1 id="top-text">All Songs</h1>
+<head>
+  <link rel = "stylesheet" type = "text/css" href = "songsindex.css" />
+</head>
+<body>
+<div id='songs'>
+  <div id="cont">
+  <% @songs.each do |song| %>
+    <div class="song-card">
+      <img <img src="519.jpg" alt="Smiley Face"/>
+      <h3><%= song.title %></h3>
+      <ul>
+        <li>Song Length: <%= song.length %></li>
+        <li>Playlist: <%= song.playlist.name if song.playlist %></li>
+        <li>Play Count: $<%= song.play_count %></li>
+      </ul>
+    </div>
+  <% end %>
+</div>
+<body>
+</div>
